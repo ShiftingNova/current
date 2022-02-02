@@ -1,5 +1,5 @@
 def single_row(char,N):
-    print(str(char)*N)
+    print(char*N,end="")
 def print_square(char,N):
     for i in range(N):
         single_row(char,N)
