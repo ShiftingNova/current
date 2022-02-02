@@ -4,7 +4,7 @@ def single_row(char, N):
 
 def print_square(char, N):
     for i in range(N):
-        print(char * N)
+        print(single_row(char,N))
 
 main():
     print_square("@", 3)
