@@ -5,10 +5,8 @@ def single_row(char, N):
 def print_square(char, N):
     for i in range(N):
         print(single_row(char,N))
-def main():
-    print_square("@", 3)
-    print()
-    print_square("#", 2)
-    print()
-    print_square("*", 5)
-main()
+print_square("@", 3)
+print()
+print_square("#", 2)
+print()
+print_square("*", 5)
